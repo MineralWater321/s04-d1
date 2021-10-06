@@ -5,7 +5,7 @@
 	<title>HTML Attributes and Links</title>
 </head>
 <body>
-	<h2>HTML Attributes</h2>
+	<h2 id="top">HTML Attributes</h2>
 
 	<!-- Attributes - changes the defeault behavior of the element 
 		<tag attribute="value">
@@ -25,7 +25,9 @@
 		Absolute and Relative
 		Absolute links - links that goes outside of your current domain/site
 	 -->
-	<img src="https://place-puppy.com/300x300">
+	<a href="https://place-puppy.com/" target="_blank">
+		<img src="https://place-puppy.com/300x300">
+	</a>
 
 	<p>
 		<code>
@@ -50,5 +52,20 @@
 		<li>svg</li>
 		<li>webp</li>
 	</ol>
+
+	<p>Take a look at w3schools attribute references <a href="https://www.w3schools.com/tags/ref_attributes.asp" target="_blank">here</a></p>
+
+	<h2>HTML Links</h2>
+
+	<h4>Absolute Link</h4>
+	<!-- Create a hyperlink element that redirects to a different page -->
+	<a href="https://zuitt.co" target="_blank">I'm a hyperlink</a>
+
+	<h4>Relative Link</h4>
+	<!-- Redirect to the link.html file -->
+	<p>Go to <a href="./link.html">link.html</a> page</p>
+
+	<!-- Redirect to the HTML element with the top id attribute -->
+	<p>Go to <a href="#top">top</a></p>
 </body>
 </html>
